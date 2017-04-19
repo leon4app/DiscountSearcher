@@ -16,7 +16,7 @@ class Searcher: NSObject
     
     func getSearchConfigs()
     {
-        
+        preconditionFailure("This method must be overridden")
     }
     
     func searchDiscount()

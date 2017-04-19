@@ -8,13 +8,23 @@
 
 import UIKit
 
-class SearcherConfigs: NSObject
+final class SearcherConfigs: NSObject
 {
-    var requestURL: URL?
+    static let sharedInstance: SearcherConfigs = {
+        let instance = SearcherConfigs()
+        
+        // setup code
+        
+        return instance
+    }()
     
-    open func getConfigs(searcher:Searcher, type: AnyObject) -> URL?
+    private override init() {}
+    
+    private var requestURL = [String(describing: MeituanSearcher.self):URL(string: "http://www.dianping.com/search/category/7/10/g103")!]
+    
+     func getConfigs(searcher:Searcher, type: AnyObject) -> URL?
     {
-        return nil
+        return requestURL[String(describing: type(of: searcher))]
     }
     
 }
