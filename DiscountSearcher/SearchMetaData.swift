@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import CoreLocation
 
 class SearchMetaData: NSObject
 {
     open var keyword: String?
-    //TODO: location
-    open var location: AnyObject?
+
+    open var location: CLLocation?
     //TODO: type
     open var type: AnyObject?
 }
