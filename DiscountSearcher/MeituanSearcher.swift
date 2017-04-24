@@ -10,13 +10,6 @@ import UIKit
 
 class MeituanSearcher: Searcher
 {
-    public let keyword : String
-    
-    init(keyword:String, address:Any)
-    {
-        self.keyword = keyword
-    }
-    
     override func searchDiscount()
     {
         

@@ -14,6 +14,15 @@ class Searcher: NSObject
     open var searchMetaData: SearchMetaData?
     var configs = [String:AnyObject]()
     
+    public var keyword : String
+    public var location : Any
+    
+    init(metaData: SearchMetaData)
+    {
+        self.keyword = metaData.keyword!
+        self.location = metaData.location!
+    }
+    
     func getSearchConfigs()
     {
         preconditionFailure("This method must be overridden")
