@@ -18,7 +18,7 @@
 		21D3F7B11E8B8893004975BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D3F7AF1E8B8893004975BB /* LaunchScreen.storyboard */; };
 		21F808261EA78B9600CCAB0B /* DiscountSearcherUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F808251EA78B9600CCAB0B /* DiscountSearcherUnitTests.swift */; };
 		21F8082D1EA78C6A00CCAB0B /* SearcherConfigsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215F8F6A1EA78A9C00146FFE /* SearcherConfigsUnitTests.swift */; };
-		21F808421EADA6BF00CCAB0B /* SearcherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F808411EADA6BF00CCAB0B /* SearcherManager.swift */; };
+		21F808421EADA6BF00CCAB0B /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F808411EADA6BF00CCAB0B /* SearchManager.swift */; };
 		21F808451EADE25E00CCAB0B /* SearcherManagerUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F808441EADE25E00CCAB0B /* SearcherManagerUnitTests.swift */; };
 		38E791D8471E356E22FF4D69 /* libPods-DiscountSearcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F201DA9BE6448DA12606F0 /* libPods-DiscountSearcher.a */; };
 /* End PBXBuildFile section */
@@ -50,7 +50,7 @@
 		21F808231EA78B9600CCAB0B /* DiscountSearcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscountSearcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F808251EA78B9600CCAB0B /* DiscountSearcherUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountSearcherUnitTests.swift; sourceTree = "<group>"; };
 		21F808271EA78B9600CCAB0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21F808411EADA6BF00CCAB0B /* SearcherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearcherManager.swift; sourceTree = "<group>"; };
+		21F808411EADA6BF00CCAB0B /* SearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
 		21F808441EADE25E00CCAB0B /* SearcherManagerUnitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearcherManagerUnitTests.swift; sourceTree = "<group>"; };
 		4B17B34B139E5770A7FA93E2 /* Pods-DiscountSearcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscountSearcher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiscountSearcher/Pods-DiscountSearcher.debug.xcconfig"; sourceTree = "<group>"; };
 		75F201DA9BE6448DA12606F0 /* libPods-DiscountSearcher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiscountSearcher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,7 +101,7 @@
 				21F808431EADD05600CCAB0B /* Model */,
 				21D3F7A61E8B8893004975BB /* AppDelegate.swift */,
 				21D3F7A81E8B8893004975BB /* ViewController.swift */,
-				21F808411EADA6BF00CCAB0B /* SearcherManager.swift */,
+				21F808411EADA6BF00CCAB0B /* SearchManager.swift */,
 				215F8F641EA76F5C00146FFE /* Searcher.swift */,
 				2115EB9B1E9E6A46005910EC /* MeituanSearcher.swift */,
 				21D3F7AA1E8B8893004975BB /* Main.storyboard */,
@@ -310,7 +310,7 @@
 				21D3F7A91E8B8893004975BB /* ViewController.swift in Sources */,
 				215F8F651EA76F5C00146FFE /* Searcher.swift in Sources */,
 				215F8F691EA775BB00146FFE /* SearcherConfigs.swift in Sources */,
-				21F808421EADA6BF00CCAB0B /* SearcherManager.swift in Sources */,
+				21F808421EADA6BF00CCAB0B /* SearchManager.swift in Sources */,
 				21D3F7A71E8B8893004975BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

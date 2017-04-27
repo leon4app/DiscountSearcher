@@ -25,9 +25,9 @@ class SearcherConfigsUnitTests: XCTestCase {
     
     func testSearcherConfigs()
     {
-        var location = CLLocation()
-        var keyword = "s"
-        var metaData = SearchMetaData()
+        let location = CLLocation()
+        let keyword = "s"
+        let metaData = SearchMetaData()
         metaData.keyword = keyword
         metaData.location = location
         let a = MeituanSearcher.init(metaData: metaData)

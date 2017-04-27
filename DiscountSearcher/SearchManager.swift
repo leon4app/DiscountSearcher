@@ -12,18 +12,13 @@ import CoreLocation
 class SearchManager : NSObject, CLLocationManagerDelegate
 {
     var searchers = Array<Searcher>()
-//    var keyword : String?
     let locationManager : CLLocationManager = CLLocationManager()
     var metaData : SearchMetaData = SearchMetaData()
     
-    override init()
+    init(keyword: String, type: AnyObject)
     {
         super.init()
         locationManager.delegate = self
-    }
-    
-    init(keyword: String, type: AnyObject)
-    {
         self.metaData.keyword = keyword
         self.metaData.type = type
     }
