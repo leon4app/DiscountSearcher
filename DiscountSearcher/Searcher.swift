@@ -16,11 +16,14 @@ class Searcher: NSObject
     
     public var keyword : String
     public var location : Any
+    public var type: AnyObject
     
     init(metaData: SearchMetaData)
     {
         self.keyword = metaData.keyword!
         self.location = metaData.location!
+        self.type = metaData.type!
+        self.searchMetaData = metaData
     }
     
     func getSearchConfigs()

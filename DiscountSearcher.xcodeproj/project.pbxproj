@@ -11,16 +11,18 @@
 		215F8F651EA76F5C00146FFE /* Searcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215F8F641EA76F5C00146FFE /* Searcher.swift */; };
 		215F8F671EA76FEA00146FFE /* SearchMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215F8F661EA76FEA00146FFE /* SearchMetaData.swift */; };
 		215F8F691EA775BB00146FFE /* SearcherConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215F8F681EA775BB00146FFE /* SearcherConfigs.swift */; };
+		2165B5D81EBB0DFC00720EE1 /* NuomiSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2165B5D71EBB0DFC00720EE1 /* NuomiSearcher.swift */; };
 		21D3F7A71E8B8893004975BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D3F7A61E8B8893004975BB /* AppDelegate.swift */; };
 		21D3F7A91E8B8893004975BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D3F7A81E8B8893004975BB /* ViewController.swift */; };
 		21D3F7AC1E8B8893004975BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D3F7AA1E8B8893004975BB /* Main.storyboard */; };
 		21D3F7AE1E8B8893004975BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D3F7AD1E8B8893004975BB /* Assets.xcassets */; };
 		21D3F7B11E8B8893004975BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D3F7AF1E8B8893004975BB /* LaunchScreen.storyboard */; };
+		21E22B721EC5889900C4B4F8 /* BankCommSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E22B711EC5889900C4B4F8 /* BankCommSearcher.swift */; };
 		21F808261EA78B9600CCAB0B /* DiscountSearcherUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F808251EA78B9600CCAB0B /* DiscountSearcherUnitTests.swift */; };
 		21F8082D1EA78C6A00CCAB0B /* SearcherConfigsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215F8F6A1EA78A9C00146FFE /* SearcherConfigsUnitTests.swift */; };
 		21F808421EADA6BF00CCAB0B /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F808411EADA6BF00CCAB0B /* SearchManager.swift */; };
 		21F808451EADE25E00CCAB0B /* SearcherManagerUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F808441EADE25E00CCAB0B /* SearcherManagerUnitTests.swift */; };
-		38E791D8471E356E22FF4D69 /* libPods-DiscountSearcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F201DA9BE6448DA12606F0 /* libPods-DiscountSearcher.a */; };
+		320EECFD7CC14981DD27D8B4 /* Pods_DiscountSearcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996345E86079ACAC1FB58C9 /* Pods_DiscountSearcher.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,7 @@
 		215F8F661EA76FEA00146FFE /* SearchMetaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchMetaData.swift; sourceTree = "<group>"; };
 		215F8F681EA775BB00146FFE /* SearcherConfigs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearcherConfigs.swift; sourceTree = "<group>"; };
 		215F8F6A1EA78A9C00146FFE /* SearcherConfigsUnitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearcherConfigsUnitTests.swift; path = ../DiscountSeacherTests/SearcherConfigsUnitTests.swift; sourceTree = "<group>"; };
+		2165B5D71EBB0DFC00720EE1 /* NuomiSearcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NuomiSearcher.swift; path = Searcher/NuomiSearcher.swift; sourceTree = "<group>"; };
 		21D3F7A31E8B8893004975BB /* DiscountSearcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscountSearcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D3F7A61E8B8893004975BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21D3F7A81E8B8893004975BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,13 +50,14 @@
 		21D3F7AD1E8B8893004975BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21D3F7B01E8B8893004975BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21D3F7B21E8B8893004975BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E22B711EC5889900C4B4F8 /* BankCommSearcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BankCommSearcher.swift; path = Searcher/BankCommSearcher.swift; sourceTree = "<group>"; };
 		21F808231EA78B9600CCAB0B /* DiscountSearcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscountSearcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F808251EA78B9600CCAB0B /* DiscountSearcherUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountSearcherUnitTests.swift; sourceTree = "<group>"; };
 		21F808271EA78B9600CCAB0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21F808411EADA6BF00CCAB0B /* SearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
 		21F808441EADE25E00CCAB0B /* SearcherManagerUnitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearcherManagerUnitTests.swift; sourceTree = "<group>"; };
 		4B17B34B139E5770A7FA93E2 /* Pods-DiscountSearcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscountSearcher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiscountSearcher/Pods-DiscountSearcher.debug.xcconfig"; sourceTree = "<group>"; };
-		75F201DA9BE6448DA12606F0 /* libPods-DiscountSearcher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiscountSearcher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B996345E86079ACAC1FB58C9 /* Pods_DiscountSearcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiscountSearcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38E791D8471E356E22FF4D69 /* libPods-DiscountSearcher.a in Frameworks */,
+				320EECFD7CC14981DD27D8B4 /* Pods_DiscountSearcher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +79,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2165B5D91EBB0E0200720EE1 /* Searcher */ = {
+			isa = PBXGroup;
+			children = (
+				215F8F641EA76F5C00146FFE /* Searcher.swift */,
+				2165B5D71EBB0DFC00720EE1 /* NuomiSearcher.swift */,
+				2115EB9B1E9E6A46005910EC /* MeituanSearcher.swift */,
+				21E22B711EC5889900C4B4F8 /* BankCommSearcher.swift */,
+			);
+			name = Searcher;
+			sourceTree = "<group>";
+		};
 		21D3F79A1E8B8892004975BB = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +113,11 @@
 		21D3F7A51E8B8893004975BB /* DiscountSearcher */ = {
 			isa = PBXGroup;
 			children = (
+				2165B5D91EBB0E0200720EE1 /* Searcher */,
 				21F808431EADD05600CCAB0B /* Model */,
 				21D3F7A61E8B8893004975BB /* AppDelegate.swift */,
 				21D3F7A81E8B8893004975BB /* ViewController.swift */,
 				21F808411EADA6BF00CCAB0B /* SearchManager.swift */,
-				215F8F641EA76F5C00146FFE /* Searcher.swift */,
-				2115EB9B1E9E6A46005910EC /* MeituanSearcher.swift */,
 				21D3F7AA1E8B8893004975BB /* Main.storyboard */,
 				21D3F7AD1E8B8893004975BB /* Assets.xcassets */,
 				21D3F7AF1E8B8893004975BB /* LaunchScreen.storyboard */,
@@ -144,7 +158,7 @@
 		C815658FFB3A4AB41543D69D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				75F201DA9BE6448DA12606F0 /* libPods-DiscountSearcher.a */,
+				B996345E86079ACAC1FB58C9 /* Pods_DiscountSearcher.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -305,9 +319,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21E22B721EC5889900C4B4F8 /* BankCommSearcher.swift in Sources */,
 				215F8F671EA76FEA00146FFE /* SearchMetaData.swift in Sources */,
 				2115EB9C1E9E6A46005910EC /* MeituanSearcher.swift in Sources */,
 				21D3F7A91E8B8893004975BB /* ViewController.swift in Sources */,
+				2165B5D81EBB0DFC00720EE1 /* NuomiSearcher.swift in Sources */,
 				215F8F651EA76F5C00146FFE /* Searcher.swift in Sources */,
 				215F8F691EA775BB00146FFE /* SearcherConfigs.swift in Sources */,
 				21F808421EADA6BF00CCAB0B /* SearchManager.swift in Sources */,
