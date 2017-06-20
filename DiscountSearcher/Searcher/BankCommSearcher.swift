@@ -34,6 +34,13 @@ class BankCommSearcher: Searcher
         requestURL = SearcherConfigs.sharedInstance.getConfigs(searcher: self, type: type)
     }
     
+    override func searchDiscount()
+    {
+        searchDiscount{data in
+            self.handleResponse(data: data!)
+        }
+    }
+    
     func searchDiscount(completionHandler: ((AnyObject?)->())?)
     {
         makeRequest()
@@ -81,5 +88,10 @@ class BankCommSearcher: Searcher
     override func cancel()
     {
         
+    }
+    
+    func handleResponse(data:AnyObject)
+    {
+        self.delegate?.searcher(self, didFinishSearchingWithResults: data)
     }
 }

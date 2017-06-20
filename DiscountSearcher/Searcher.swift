@@ -8,8 +8,14 @@
 
 import UIKit
 
+protocol SearchProtocol
+{
+    func searcher(_ searcher: Searcher, didFinishSearchingWithResults searchResults: AnyObject)
+}
+
 class Searcher: NSObject
 {
+    var delegate:SearchProtocol?
     open var requestURL: URL?
     open var searchMetaData: SearchMetaData?
     var configs = [String:AnyObject]()
@@ -31,12 +37,12 @@ class Searcher: NSObject
         preconditionFailure("This method must be overridden")
     }
     
-    func searchDiscount()
+    open func searchDiscount()
     {
         
     }
     
-    func cancel()
+    open func cancel()
     {
         
     }

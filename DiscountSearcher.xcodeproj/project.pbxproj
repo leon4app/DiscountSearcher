@@ -113,11 +113,9 @@
 		21D3F7A51E8B8893004975BB /* DiscountSearcher */ = {
 			isa = PBXGroup;
 			children = (
-				2165B5D91EBB0E0200720EE1 /* Searcher */,
 				21F808431EADD05600CCAB0B /* Model */,
 				21D3F7A61E8B8893004975BB /* AppDelegate.swift */,
 				21D3F7A81E8B8893004975BB /* ViewController.swift */,
-				21F808411EADA6BF00CCAB0B /* SearchManager.swift */,
 				21D3F7AA1E8B8893004975BB /* Main.storyboard */,
 				21D3F7AD1E8B8893004975BB /* Assets.xcassets */,
 				21D3F7AF1E8B8893004975BB /* LaunchScreen.storyboard */,
@@ -140,8 +138,10 @@
 		21F808431EADD05600CCAB0B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				21F808411EADA6BF00CCAB0B /* SearchManager.swift */,
 				215F8F661EA76FEA00146FFE /* SearchMetaData.swift */,
 				215F8F681EA775BB00146FFE /* SearcherConfigs.swift */,
+				2165B5D91EBB0E0200720EE1 /* Searcher */,
 			);
 			name = Model;
 			sourceTree = "<group>";

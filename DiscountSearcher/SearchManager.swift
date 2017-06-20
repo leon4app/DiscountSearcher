@@ -9,7 +9,7 @@
 import UIKit
 import CoreLocation
 
-class SearchManager : NSObject, CLLocationManagerDelegate
+class SearchManager : NSObject, CLLocationManagerDelegate, SearchProtocol
 {
     var searchers = Array<Searcher>()
     let locationManager : CLLocationManager = CLLocationManager()
@@ -58,15 +58,22 @@ class SearchManager : NSObject, CLLocationManagerDelegate
     {
         let meituan = MeituanSearcher(metaData: metaData)
         searchers.append(meituan)
+        let bankcomm = BankCommSearcher(metaData: metaData)
+        searchers.append(bankcomm)
     }
     
     func search(metaData: SearchMetaData)
     {
-        
+        //use dispatch to improve performance
     }
     
     func cancel()
     {
         
+    }
+    
+    func searcher(_ searcher: Searcher, didFinishSearchingWithResults searchResults: AnyObject)
+    {
+        print(searchResults)
     }
 }
