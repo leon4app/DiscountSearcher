@@ -75,5 +75,6 @@ class SearchManager : NSObject, CLLocationManagerDelegate, SearchProtocol
     func searcher(_ searcher: Searcher, didFinishSearchingWithResults searchResults: AnyObject)
     {
         print(searchResults)
+        
     }
 }

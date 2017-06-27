@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 protocol SearchProtocol
 {
@@ -19,7 +20,8 @@ class Searcher: NSObject
     open var requestURL: URL?
     open var searchMetaData: SearchMetaData?
     var configs = [String:AnyObject]()
-    
+    var request: Alamofire.Request?
+
     public var keyword : String
     public var location : Any
     public var type: AnyObject
@@ -44,6 +46,6 @@ class Searcher: NSObject
     
     open func cancel()
     {
-        
+        self.request?.cancel()
     }
 }

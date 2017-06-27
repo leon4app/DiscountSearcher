@@ -44,7 +44,7 @@ class BankCommSearcher: Searcher
     func searchDiscount(completionHandler: ((AnyObject?)->())?)
     {
         makeRequest()
-        Alamofire.request(requestURL!, parameters : paraDict).responseJSON { response in
+        self.request = Alamofire.request(requestURL!, parameters : paraDict).responseJSON { response in
             print(response.request)  // original URL request
             print(response.response) // HTTP URL response
             print(response.data)     // server data
@@ -85,10 +85,6 @@ class BankCommSearcher: Searcher
         paraDict["keyword"] = self.keyword.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!
     }
     
-    override func cancel()
-    {
-        
-    }
     
     func handleResponse(data:AnyObject)
     {
