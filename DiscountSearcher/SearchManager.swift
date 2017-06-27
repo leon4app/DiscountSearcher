@@ -69,7 +69,9 @@ class SearchManager : NSObject, CLLocationManagerDelegate, SearchProtocol
     
     func cancel()
     {
-        
+        for searcher in searchers {
+            searcher.cancel()
+        }
     }
     
     func searcher(_ searcher: Searcher, didFinishSearchingWithResults searchResults: AnyObject)
